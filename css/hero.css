@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #FFE5E5;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #5D12D2;
+}
+.hero{
+    background-color: #FF6AC2;
+    border: 5px solid darkblue;
+    height: 450px;
+    width: 1050px;
+    margin: 50px 200px;
+    border-radius: 10px;
+}
+.picture{
+    height: 150px;
+    width: 150px;  
+    margin-top: 10px;
+}
+#one{
+    border: 5px solid black;
+    margin-left: 20px;
+    order: 2;
+    flex-grow: 2;
+}
+#two{
+    border: 5px solid lavender;
+    margin-left: 20px;
+    order: 3;
+}
+#three{
+    border: 5px solid coral;
+    margin-left: 20px;
+    order: 4;
+}
+#four{
+    border: 5px solid maroon;
+    margin-left: 25px;
+    order: 5;
+    /* flex-grow: 3; */
+}
+#five{
+    border: 5px solid greenyellow;
+    margin-left: 25px;
+    align-self: center;
+    order: 4;
+    /* flex-grow: 5; */
+}
+.img {
+    display: flex;
+}
+
+.chile {
+    font-size: 20px;
+    margin:10px  5px;
+    padding: 10px;
+    color: black;
+}
+#one1 {
+    background: lightgray;
+    border: 2px solid black;
+    order: 3;
+    flex-grow: 1;
+    align-self: center;
+}
+#two2{
+    background: lightgreen;
+    border: 2px solid lavender;
+    order: 4;
+    flex-grow: 2;
+}
+#three3 {
+    background: lightseagreen;
+    border: 2px solid coral;
+    order: 2;
+    flex-grow: 2;
+}
+#four4 {
+    background: lightskyblue;
+    border: 2px solid maroon;
+    order: 1;
+    flex-grow: 1;
+}
+#five5 {
+    background: lightskyblue;
+    border: 2px solid greenyellow;
+    order: 1;
+    flex-grow: 1;
+}
