@@ -111,8 +111,50 @@ body{
     width: 1250px;
     border-bottom: 3px solid #992C2C;
     border-top: 3px solid #992C2C;
+    position: relative;
+
+    display: flex;
 }
 
 .stuent{
-    display: flex;
+  
+    
+}
+
+
+
+
+
+.contain {
+    position: absolute;
+}
+
+.image {
+    width: 1250px;
+    height:400px;
+    object-fit: cover; 
+}
+
+.text {
+    position: absolute;
+    top: 90px;
+    left:370px;
+    text-align: center;
+    color: white;
+}
+.rmpi-text{
+    font-size: 30px;
+    margin: 0;
+}
+.portal-text{
+    font-size: 65px;
+    margin: 10px;
+}
+.portal-span{
+    color: #992C2C;
+    border-bottom: 5px solid white;
+    padding-right: 90px;
+}
+.student-span{
+    padding-left: 90px;
 }

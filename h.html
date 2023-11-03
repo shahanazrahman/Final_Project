@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./h.css">
+  <style>
+.contain {
+    position: absolute;
+}
+
+.image {
+    width: 1250px;
+    height:400px;
+    object-fit: cover; 
+}
+
+.text {
+    position: absolute;
+    top: 90px;
+    left:370px;
+    text-align: center;
+    color: white;
+}
+.rmpi-text{
+    font-size: 30px;
+    margin: 0;
+}
+.portal-text{
+    font-size: 65px;
+    margin: 10px;
+}
+.portal-span{
+    color: #992C2C;
+    border-bottom: 5px solid white;
+    padding-right: 90px;
+}
+.student-span{
+    padding-left: 90px;
+}
+  </style>
 </head>
 <body>
-    <!-- hero start -->
-    <section id="hero">
-        <div class="container">
-            <!-- Navbar Start-->
-            <div class="navbar">
-                <div class="logo">emon</div>
-                <div class="menu">
-                    <a href="./position.html">Portfolio</a>
-                    <a href="#">Reviews</a>
-                    <a href="#">Contact</a>
-                    <a href="#" class="sign">Sign In</a>
-                </div>
-            </div>
-            <!-- Navbar End -->
-            <!-- Hero start -->
-            <div class="hero-box">
-                <h1 class="hero-title">Lorem <span style="color: #ffd92f;" >ipsum</span> dolor sit amet consectetur.</h1>
-                <p class="hero-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, consequatur!</p>
-                
-                <div class="btn-box">
-                    <a href="#" class="hero-btn demo">Demo</a>
-                    <a href="#" class="hero-btn contact">Contact</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
+  <div class="contain">
+    <img class="image" src="./img/student_portal.jpg" alt="Image">
+    <div class="text">
+        <p class="rmpi-text">Rajshahi Mohila Polytechnic Institute</p>
+        <h1 class="portal-text"><span class="student-span">Student</span> <span class="portal-span">Portal</span></h1>
+    </div>
+    
+  </div>
 </body>
 </html>
