@@ -1,13 +1,13 @@
 *{
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
 }
 body{
     margin: 0px 50px;
-    /* border-left: 2px solid black;
-    border-right: 2px solid black; */
-    /* padding: 50px; */
 }
+/* Top Header Section  */
 .first{
     background-color: white;
     /* border: 3px solid black; */
@@ -27,7 +27,6 @@ body{
     margin: 0;
     border-bottom: 5px solid #992C2C;
     border-top: 5px solid #992C2C;
-
 }
 .institute_title {
     display: flex;
@@ -35,12 +34,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* line-height: 25px; */
 }
 .institute_title2{
     font-size: 20px; 
 }
-
 .row {
     display: flex;
     justify-content: space-around;
@@ -48,43 +45,74 @@ body{
 .email{
     padding: 20px;
 }
+/* header section end  */
 
+/* Navbar Start */
+.menu {
+  list-style-type: none;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+}
 
+.menu li {
+  position: relative;
+  font-size: 20px;
+  /* border: 2px solid black; */
+  padding:  0px 15px;
+  margin: 0px;
+  font-weight: 600;
+}
 
+.menu li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(15, 9, 9);
+  letter-spacing: 1px;
+}
 
+.menu li:hover {
+  background-color: #ddd;
+  border-bottom: 2px solid #992C2C;
+}
+.menu ul.dropdown {
+  display: none;
+  position: absolute;
+  left: 0px;
+  width: 300px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  transition: all .3s;
+  background-color: white;
+}
 
+.menu li:hover ul.dropdown {
+  display: block; 
+}
 
+.dropdown{
+    letter-spacing: 0px;
+}
+.rmpi{
+    border:3px solid black;
+    border-radius: 20px;
+    background-color: #ddd;
+}
+.menu li .rmpi:hover{
+    background-color: #992C2C;
+    color: #ddd; 
+     transition: all .3s;
+}
+/* Navbar End */
 
-.navbar {
+.main-img{
+    height: 400px;
+    width: 1250px;
+    border-bottom: 3px solid #992C2C;
+    border-top: 3px solid #992C2C;
+}
+
+.stuent{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: sticky;
-    top: 20px;
-}
-
-.navbar .menu {
-    margin-right: 10%;
-}
-
-.navbar .menu a:not(:last-child){
-    color: rgb(189, 66, 66);
-    margin: 10px;
-    transition-duration: 0.5s;
-}
-
-.navbar .menu a:not(:last-child):hover {
-    border-bottom: 2px solid rgb(172, 62, 62);
-    padding: 10px;
-}
-
-.navbar .menu .sign {
-    padding: 10px 15px;
-    color: #0C254E;
-    background:#FFE262;
-    border-radius: 15px;
-}
-
-.navbar .menu .sign:hover {
-    background: #dfb90f;
 }
