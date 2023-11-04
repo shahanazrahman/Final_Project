@@ -71,7 +71,7 @@ body{
   letter-spacing: 1px;
 }
 
-.menu li:hover {
+.menu li:hover:not(:last-child) {
   background-color: #ddd;
   border-bottom: 2px solid #992C2C;
 }
@@ -88,7 +88,7 @@ body{
 }
 
 .menu li:hover ul.dropdown {
-  display: block; 
+  display: block;
 }
 
 .dropdown{
@@ -96,15 +96,17 @@ body{
 }
 .rmpi{
     border:3px solid black;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #ddd;
+
 }
 .menu li .rmpi:hover{
     background-color: #992C2C;
     color: #ddd; 
-     transition: all .3s;
+     transition: all .5s;
 }
 /* Navbar End */
+
 /* Body section start  */
 .contain {
     position: absolute;
@@ -114,6 +116,7 @@ body{
     width: 1250px;
     height:400px;
     object-fit: cover; 
+    border-bottom: 5px solid #992C2C;
 }
 
 .text {
@@ -140,3 +143,149 @@ body{
     padding-left: 90px;
 }
 /* body section end  */
+
+/* box section start */
+.section {
+    position: relative;
+    top: 410px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    width: 220px;
+    text-align: center;
+    border: 5px solid #ddd;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
+
+  .card img {
+    max-width: 100%;
+    max-height: 150px;
+  }
+
+  .card a {
+    display: block;
+    margin-top: 10px;
+  }
+  .box{
+    height: 70px;
+    width: 70px;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-text{
+    color: #992C2C;
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 550;
+  }
+  .section .card:hover{
+    transition: all .7s;
+    background-color: #ddd;
+    border: 5px solid #992C2C;
+  }
+  /* box section end */
+
+
+/* footer section start  */
+
+  footer {
+    position: relative;
+    top: 430px;
+    background-color: #ddd;
+    border-top: 5px solid #992C2C;
+    border-bottom: 5px solid #992C2C;
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+
+  .footer-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logo-link{
+    display: flex;
+  }
+
+  .logo-link2{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    padding: 10px;
+  }
+  .contact-us{
+    color: #992C2C;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .contact{
+    font-size: 20px;
+  }
+
+  .important-links{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+  }
+  
+  .subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+    color: #992C2C;
+  }
+  .subscription input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .subscription button {
+    background-color: #992C2C;
+    color: #fff;
+    border: 5px solid #ddd;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+  }
+  
+  .subscription button:hover {
+    background-color:#ddd;
+    border: 5px solid #992C2C;
+    color: black;
+  }
+  
+  /* footer section end  */
+
+  .end{
+    position: relative;
+    top: 430px;
+    background-color: #992C2C;
+    color: white;
+    font-size: 15px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    text-align: center;
+  }
