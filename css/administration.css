@@ -127,14 +127,14 @@ body{
     color: white;
 }
 .rmpi-text{
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
 }
 .portal-text{
-    font-size: 65px;
+    font-size: 50px;
     margin: 10px;
 }
 .student-span{
-    padding-left: 90px;
+    padding-left: 0px;
 }
 /* body section end  */
