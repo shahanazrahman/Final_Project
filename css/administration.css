@@ -141,7 +141,7 @@ body{
 
 /* box section start */
 
-
+/* 1st */
 .section {
     position: relative;
     top: 410px;
@@ -155,7 +155,7 @@ body{
   .teacher{
     display: flex;
     justify-content: flex-start;
-    padding-left: 270px;
+    padding-left: 450px;
     padding-bottom: 50px;
     font-size: 15px; 
   }
@@ -179,7 +179,10 @@ body{
     text-decoration: underline;
     text-underline-position: under;
 }
-  
+  /* 1st */
+
+
+
 .section-2{
     position: relative; 
     display: flex;
@@ -187,10 +190,18 @@ body{
 }
 .teacher-2{
     display: flex;
+    flex-direction: column;
+  }
+
+  .box-2{
+    height: 200px;
+    width: 150px;
+    border: 2px solid #992C2C;
+    align-self: center;
   }
   .teachet-text-2{
-    padding-left: 50px;
     padding-top:20px ;
+    text-align: center;
 }
 .center-2{
     margin-top: 7px;
@@ -198,15 +209,17 @@ body{
 }
 
 
-
-
-
-
-
-
-.section-3{
+.teacher-4section{
     display: flex;
+    position: relative;
+    top: 50px;
 }
+
+
+
+
+
+
 
 /*last footer section start  */
 .end{
