@@ -276,7 +276,7 @@ body{
   }
   
   /* footer section end  */
-
+  /*last footer section start  */
   .end{
     position: relative;
     top: 430px;
@@ -287,3 +287,5 @@ body{
     padding-bottom:10px ;
     text-align: center;
   }
+
+  /*last footer section end  */
