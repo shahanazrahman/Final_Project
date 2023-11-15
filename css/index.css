@@ -85,6 +85,7 @@ body{
   margin: 0px;
   transition: all .3s;
   background-color: white;
+  z-index: 1;
 }
 
 .menu li:hover ul.dropdown {
@@ -186,6 +187,61 @@ body{
   }
   /* box section end */
 
+   /* teacher section start  */
+.section-teacher{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+
+}
+
+  .teacher-section{
+    position: relative;
+    top: 410px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .teacher-information{
+    position: relative;
+    top: 450px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #992C2C;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin: 50px;
+    font-size: 35px;
+  }
+  .card-teacher{
+    width: 450px;
+    text-align: center;
+    border: 5px solid #ddd;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
+  .text-teacher{
+    padding: 20px;
+  }
+  .section-text-teacher{
+    font-size: 25px;
+  }
+ 
+  .section .card:hover{
+    transition: all .7s;
+    background-color: #ddd;
+    border: 5px solid #992C2C;
+  }
+  .section-teacher .card-teacher:hover{
+    transition: all .7s;
+    background-color: #ddd;
+    border: 5px solid #992C2C;
+  }
+  .black{
+    color: black;
+  }
+   /* teacher section end */
 
 /* footer section start  */
 
@@ -289,3 +345,4 @@ body{
   }
 
   /*last footer section end  */
+
