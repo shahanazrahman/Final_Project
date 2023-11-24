@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0px 50px;
+}
+/* Top Header Section  */
+.first{
+    background-color: white;
+    /* border: 3px solid black; */
+}
+.top-bar{
+    height: 30px;
+    background-color: #ddd;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 11px 20px;
+    margin: 0;
+    border-bottom: 5px solid #992C2C;
+    border-top: 5px solid #992C2C;
+}
+.institute_title {
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.institute_title2{
+    font-size: 17px; 
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    padding: 20px;
+}
+/* header section end  */
+
+
+
+
+
+
+
+/* Login section start */
+
+
+.h2{
+    margin-left: 400px;
+    margin-top: 15px;
+    letter-spacing: 3px;
+    color: #992C2C;
+    
+}
+
+
+
+.form-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color:#992C2C;
+    color: #fff;
+    padding: 5px;
+    border: 3px solid #992C2C;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 750;
+}
+
+button:hover {
+    /* background-color: #ddd;
+    border: 3px solid ;
+    color: #992C2C; */
+}
+
+#imageUpload {
+    margin-bottom: 12px;
+}
+
+#imagePreview {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+}
+/* Login section end */
+
+  /*last footer section start  */
+  .end{
+    position: relative;
+    top: 50px;
+    background-color: #992C2C;
+    color: white;
+    font-size: 13px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    text-align: center;
+  }
+
+  /*last footer section end  */
+

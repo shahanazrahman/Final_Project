@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
     text-decoration: none;
     list-style-type: none;
+    font-family: 'Poppins', sans-serif;
 }
+
 body{
     margin: 0px 50px;
 }
@@ -36,7 +41,7 @@ body{
     align-items: center;
 }
 .institute_title2{
-    font-size: 20px; 
+    font-size: 17px; 
 }
 .row {
     display: flex;
@@ -53,11 +58,13 @@ body{
   display: flex; 
   justify-content: space-between;
   align-items: center; 
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .menu li {
   position: relative;
-  font-size: 20px;
+  font-size: 16px;
   /* border: 2px solid black; */
   padding:  0px 15px;
   margin: 0px;
@@ -79,7 +86,7 @@ body{
   display: none;
   position: absolute;
   left: 0px;
-  width: 300px;
+  width: 400px;
   list-style: none;
   padding: 0px;
   margin: 0px;
@@ -94,6 +101,7 @@ body{
 
 .dropdown{
     letter-spacing: 0px;
+
 }
 .rmpi{
     border:3px solid black;
@@ -120,15 +128,16 @@ body{
     border-bottom: 5px solid #992C2C;
 }
 
+
 .text {
     position: absolute;
-    top: 90px;
+    top: 120px;
     left:370px;
     text-align: center;
     color: white;
 }
 .rmpi-text{
-    font-size: 30px;
+    font-size: 18px;
     margin: 0;
 }
 .portal-text{
@@ -136,7 +145,7 @@ body{
     margin: 10px;
 }
 .student-span{
-    padding-left: 90px;
+    padding-left: 0px;
 }
 /* body section end  */
 
@@ -176,9 +185,9 @@ body{
   }
   .section-text{
     color: #992C2C;
-    font-size: 23px;
+    font-size: 22px;
     padding-top: 10px;
-    font-weight: 550;
+    font-weight: 600;
   }
   .section .card:hover{
     transition: all .7s;
@@ -212,20 +221,21 @@ body{
     text-decoration: underline;
     text-underline-position: under;
     margin: 50px;
-    font-size: 35px;
+    font-size: 30px;
   }
   .card-teacher{
     width: 450px;
     text-align: center;
     border: 5px solid #ddd;
-    padding: 15px 30px;
+    padding: 10px 30px;
     margin-top: 20px;
   }
   .text-teacher{
     padding: 20px;
   }
   .section-text-teacher{
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 600;
   }
  
   .section .card:hover{
@@ -290,13 +300,13 @@ body{
   }
 
   .contact{
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .important-links{
     display: flex;
     flex-direction: column;
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
   }
@@ -312,15 +322,15 @@ body{
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 16px;
     border-radius: 5px;
   }
   .subscription button {
     background-color: #992C2C;
     color: #fff;
-    border: 5px solid #ddd;
+    border: 3px solid #ddd;
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px 25px;
     cursor: pointer;
   }
@@ -338,7 +348,7 @@ body{
     top: 430px;
     background-color: #992C2C;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     padding-top:10px ;
     padding-bottom:10px ;
     text-align: center;

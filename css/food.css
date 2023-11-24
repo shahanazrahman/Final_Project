@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
     text-decoration: none;
     list-style-type: none;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     margin: 0px 50px;
@@ -36,7 +40,7 @@ body{
     align-items: center;
 }
 .institute_title2{
-    font-size: 20px; 
+    font-size: 17px; 
 }
 .row {
     display: flex;
@@ -53,11 +57,13 @@ body{
   display: flex; 
   justify-content: space-between;
   align-items: center; 
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .menu li {
   position: relative;
-  font-size: 20px;
+  font-size: 16px;
   /* border: 2px solid black; */
   padding:  0px 15px;
   margin: 0px;
@@ -79,12 +85,13 @@ body{
   display: none;
   position: absolute;
   left: 0px;
-  width: 300px;
+  width: 400px;
   list-style: none;
   padding: 0px;
   margin: 0px;
   transition: all .3s;
   background-color: white;
+  z-index: 1;
 }
 
 .menu li:hover ul.dropdown {
@@ -103,7 +110,7 @@ body{
 .menu li .rmpi:hover{
     background-color: #992C2C;
     color: #ddd; 
-     transition: all .5s;
+    transition: all .5s;
 }
 /* Navbar End */
 
@@ -127,7 +134,7 @@ body{
     color: white;
 }
 .rmpi-text{
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 .portal-text{
@@ -159,7 +166,7 @@ body{
     justify-content: flex-start;
     padding-left: 450px;
     padding-bottom: 50px;
-    font-size: 15px; 
+    font-size: 14px; 
   }
   .box{
     height: 200px;
@@ -172,7 +179,7 @@ body{
 }
 .center{
     margin-top: 7px;
-    font-size: 20px;
+    font-size: 17px;
 }
 .technology{
     text-align: center;
@@ -208,18 +215,25 @@ body{
     padding-top:20px ;
     padding-left: 20px;
     text-align: left;
-    font-size: 14px;
+    font-size: 15px;
 }
 .center-2{
     margin-top: 7px;
-    font-size: 16px;  
+    font-size: 15px;  
 }
 
 
 .teacher-4section{
     display: flex;
     position: relative;
+    justify-content: space-around;
 
+}
+
+.teacher-4section-2{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;  
 }
 
 
@@ -234,7 +248,7 @@ body{
     top: 430px;
     background-color: #992C2C;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     padding-top:10px ;
     padding-bottom:10px ;
     text-align: center;
