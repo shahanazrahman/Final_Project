@@ -310,6 +310,9 @@ body{
     text-decoration: none;
     color: black;
   }
+  .important-links a{
+    color: black;
+  }
   
   .subscription{
     display: flex;

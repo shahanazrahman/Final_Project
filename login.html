@@ -22,7 +22,7 @@
                     <img class="logo" src="./img/RMPI (1).png" alt="RMPI Logo">
                 </div>
                 <div class="institute_title">
-                    <h2>Rajshahi Mohila Polytechnic Institute</h2>
+                    <h2 style="color: #992C2C;">Rajshahi Mohila Polytechnic Institute</h2>
                     <div class="institute_title2">
                         <p>Naodapara Bypass Road, Sapura-6203, Rajshahi</p>
                         <p>Tel: 02588803044 <span class="email">Email: rmpi2003@gmail.com</span> </p>
@@ -45,23 +45,25 @@
 <div class="form-1">
     
     <form>
-        <label for="name">Name :</label>
-        <input type="text" id="name" name="name" required>
+        <label for="name" >Name :</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
 
         <label for="roll">Roll Number :</label>
-        <input type="text" id="roll" name="roll" required>
+        <input type="text" id="roll" name="roll" placeholder="Roll Number" required>
 
         <label for="reg">Registration Number :</label>
-        <input type="text" id="reg" name="reg" required>
+        <input type="text" id="reg" name="reg" placeholder="Registration Number" required>
 
         <label for="department">Department :</label>
-        <input type="text" id="department" name="department" required>
+        <input type="text" id="department" name="department" placeholder="Department" required>
 
         <label for="semester">Semester :</label>
-        <input type="text" id="semester" name="semester" required>
+        <input type="text" id="semester" name="semester" placeholder="Semester" required>
 
         <label for="shift">Shift:</label>
-        <select id="shift" name="shift" required>
+        <select id="shift" name="shift"  required>
+
+            <option selected value="1st">Select your shift</option>
             <option value="1st">1st Shift</option>
             <option value="2nd">2nd Shift</option>
         </select>
@@ -70,28 +72,28 @@
         <input type="text" id="shift" name="shift" required> -->
 
         <label for="session">Session :</label>
-        <input type="text" id="session" name="session" required>
+        <input type="text" id="session" name="session" placeholder="Session" required>
 
         <label for="mobile">Mobile Number :</label>
-        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{11}" required>
 
         <label for="fatherName">Father's Name :</label>
-        <input type="text" id="fatherName" name="fatherName" required>
+        <input type="text" id="fatherName" name="fatherName" placeholder="Father's Name" required>
 
         <label for="motherName">Mother's Name :</label>
-        <input type="text" id="motherName" name="motherName" required>
+        <input type="text" id="motherName" name="motherName" placeholder="Mother's Name" required>
 
         <label for="parentMobile">Parent's Mobile Number :</label>
-        <input type="tel" id="parentMobile" name="parentMobile" pattern="[0-9]{10}" required>
+        <input type="tel" id="parentMobile" name="parentMobile" pattern="[0-9]{11}" placeholder="Parent's Mobile Number" required>
 
         <label for="presentAddress">Present Address :</label>
-        <textarea id="presentAddress" name="presentAddress" rows="3" required></textarea>
+        <textarea id="presentAddress" name="presentAddress" rows="3" placeholder="Present Address" required></textarea>
 
         <label for="permanentAddress">Permanent Address :</label>
-        <textarea id="permanentAddress" name="permanentAddress" rows="3" required></textarea>
+        <textarea id="permanentAddress" name="permanentAddress" rows="3" placeholder="Permanent Address" required></textarea>
 
         <label for="imageUpload">Upload Image :</label>
-        <input type="file" id="imageUpload" name="imageUpload" accept="image/*" required>
+        <input type="file" id="imageUpload" name="imageUpload" placeholder="Upload Image " accept="image/*" required>
         <!-- <img id="imagePreview" alt="Image Preview"> -->
 
         <button type="submit">Login</button>
