@@ -59,8 +59,7 @@ body{
   justify-content: space-between;
   align-items: center; 
   margin-top: 2px;
-  /* margin-bottom: 3px; */
-  border-bottom:5px solid #992C2C;
+  margin-bottom: 2px;
 }
 
 .menu li {
@@ -117,118 +116,116 @@ body{
 }
 /* Navbar End */
 
-
-
-
-
-.main-info{
-  display: flex;
-  margin-top: 30px;
-  /* border: 3px solid #992C2C; */
+/* Body section start  */
+.contain {
+    position: absolute;
 }
 
-.info-section {
+.image {
+    width: 1250px;
+    height:400px;
+    object-fit: cover; 
+    border-bottom: 5px solid #992C2C;
+}
+
+
+.text {
+    position: absolute;
+    top: 120px;
+    left:370px;
+    text-align: center;
+    color: white;
+}
+.rmpi-text{
+    font-size: 18px;
+    margin: 0;
+}
+.portal-text{
+    font-size: 65px;
+    margin: 10px;
+}
+.student-span{
+    padding-left: 0px;
+}
+/* body section end  */
+
+/* About-Us Section start */
+
+
+.main-about-us{
+  position: relative;
+  top: 450px;
+}
+
+.about-us-h1{
+  color: #992C2C;
+  border-bottom: 3px solid #992C2C;
+}
+
+.about-us-p{
+  font-size: 18px;
+  text-align: justify;
+  margin-top:10px ;
+}
+
+
+.main-about-us2{
+  display: flex;
+  margin-top: 50px;
+}
+.about-us-text{
   flex: 1;
   margin-right: 20px;
 }
 
-h1 {
-  color: #333;
-  margin: auto;
-  text-align: center;
-  color: #992C2C;
-  margin-top: 50px;
-  letter-spacing: 2px;
-  font-size: 45px;
-  /* border-bottom:5px solid #992C2C; */
 
+.about-us-text-2{
+  flex: 1;
+  margin-left: 50px;
 }
-
-h3 {
-  padding-top: 15px;
-  /* border: 3px solid#992C2C; */
+h3{
   padding-bottom: 15px;
-  font-size: 20px;
-}
-.p-info{
-  text-align: justify;
   font-size: 18px;
 }
-.ul-info {
+.ul-about{
   list-style-type: none;
   padding-left: 50px;
 }
-
-.li-info {
-  list-style-type: circle;
+.li-about{
+  list-style-type: circle ;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 18px;
-
-}
-.info-image {
-  flex: 1.1;
 }
 
-.info-image img {
+.about-us-image{
+  flex: 0.9;
+}
+
+
+.about-us-image img {
   width: 100%;
   height: auto;
   border-radius:20px;
   border:2px solid #992C2C;
 }
 
-
-.table-info{
-  margin-top: 50px;
+.about-us-3th-div{
+  margin-top: 30px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-th, td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid  #992C2C;
-  font-size: 18px;
-  
-}
-
-th {
-  background-color:  #992C2C;
-  color: #ddd;
-}
-
-tr:nth-child(even) {
-  background-color: #ddd;
-}
-
-.row-1st{
-  font-weight:500
-  
-}
-
-.h2-p{
-  font-size: 25px;
-  font-weight: 600;
-  margin-top:40px ;
-  margin-bottom: 10px;
-  
-}
-.history-p{
+.about-us-p3{
   font-size: 18px;
   text-align: justify;
+  /* margin-top:10px ; */
 }
 
-
-
+/* About-Us Section end */
 
   /*last footer section start  */
   .end{
     position: relative;
-    top: 100px;
+    top: 600px;
     background-color: #992C2C;
     color: white;
     font-size: 13px;
