@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0px 50px;
+}
+/* Top Header Section  */
+.first{
+    background-color: white;
+    /* border: 3px solid black; */
+}
+.top-bar{
+    height: 30px;
+    background-color: #ddd;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 11px 20px;
+    margin: 0;
+    border-bottom: 5px solid #992C2C;
+    border-top: 5px solid #992C2C;
+}
+.institute_title {
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.institute_title2{
+    font-size: 17px; 
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    padding: 20px;
+}
+/* header section end  */
+
+/* Navbar Start */
+.menu {
+  list-style-type: none;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.menu li {
+  position: relative;
+  font-size: 16px;
+  /* border: 2px solid black; */
+  padding:  0px 15px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.menu li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(15, 9, 9);
+  letter-spacing: 1px;
+}
+
+.menu li:hover:not(:last-child) {
+  background-color: #ddd;
+  border-bottom: 2px solid #992C2C;
+}
+.menu ul.dropdown {
+  display: none;
+  position: absolute;
+  left: 0px;
+  width: 400px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  transition: all .3s;
+  background-color: white;
+  z-index: 1;
+}
+
+.menu li:hover ul.dropdown {
+  display: block;
+}
+
+.dropdown{
+    letter-spacing: 0px;
+
+}
+.rmpi{
+    border:3px solid black;
+    border-radius: 25px;
+    background-color: #ddd;
+
+}
+.menu li .rmpi:hover{
+    background-color: #992C2C;
+    color: #ddd; 
+     transition: all .5s;
+}
+/* Navbar End */
+
+/* Body section start  */
+.contain {
+    position: absolute;
+}
+
+.image {
+    width: 1250px;
+    height:400px;
+    object-fit: cover; 
+    border-bottom: 5px solid #992C2C;
+}
+
+
+.text {
+    position: absolute;
+    top: 120px;
+    left:370px;
+    text-align: center;
+    color: white;
+}
+.rmpi-text{
+    font-size: 18px;
+    margin: 0;
+}
+.portal-text{
+    font-size: 65px;
+    margin: 10px;
+}
+.student-span{
+    padding-left: 0px;
+}
+/* body section end  */
+
+
+
+
+
+
+
+/* Gallery Section Start  */
+
+.main-gallery{
+    position: relative;
+    top: 430px;
+}
+
+.gallery {
+    display: flex; 
+  justify-content: space-between;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    border:3px solid #992C2C;
+}
+
+
+
+
+.upload-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.upload-btn-wrapper .upload-btn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* Gallery Section End  */
+
+
+
+
+
+
+
+
+  /*last footer section start  */
+  .end{
+    position: relative;
+    top: 800px;
+    background-color: #992C2C;
+    color: white;
+    font-size: 13px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    text-align: center;
+  }
+
+  /*last footer section end  */
+

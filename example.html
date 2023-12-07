@@ -3,78 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             font-family: Arial, sans-serif;
         }
 
-        table {
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery img {
             width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .upload-section {
+            text-align: center;
+            margin: 20px;
         }
 
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
+        .upload-btn-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
         }
 
-        th {
-            background-color: #f2f2f2;
+        .btn {
+            border: 2px solid gray;
+            color: gray;
+            background-color: white;
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
         }
 
-        tr:nth-child(even) {
-            background-color: #7a1b1b;
+        .upload-btn-wrapper input[type=file] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+
+        .upload-btn-wrapper .upload-btn {
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
         }
     </style>
-    <title>HTML Table with CSS</title>
 </head>
 <body>
 
-    <h2>Sample Table</h2>
+    <div class="gallery">
+        <img src="./img4/Papia.jpg" alt="Image 1">
+        <img src="./img2/Khokon.jpg" alt="Image 2">
+        <img src="./img2/Ashikuzzaman.jpg" alt="Image 3">
+        <img src="./img2/Abdullah.jpg" alt="Image 4">
+        <!-- Repeat the pattern below for the rest of your images -->
+        
+        <img src="./img3/Mottakin.jpg" alt="Image 5">
+        <img src="./img2/bondhan.jpg" alt="Image 6">
+        <img src="./img3/Jinath.jpg" alt="Image 7">
+        <img src="./img2/Ashikuzzaman.jpg" alt="Image 8">
+        
+        <!-- Repeat until image20 -->
 
-    <table>
-        <thead>
-            <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
-                <th>Header 3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Row 1, Cell 1</td>
-                <td>Row 1, Cell 2</td>
-                <td>Row 1, Cell 3</td>
-            </tr>
-            <tr>
-                <td>Row 2, Cell 1</td>
-                <td>Row 2, Cell 2</td>
-                <td>Row 2, Cell 3</td>
-            </tr>
-            <tr>
-                <td>Row 3, Cell 1</td>
-                <td>Row 3, Cell 2</td>
-                <td>Row 3, Cell 3</td>
-            </tr>
-            <tr>
-                <td>Row 3, Cell 1</td>
-                <td>Row 3, Cell 2</td>
-                <td>Row 3, Cell 3</td>
-            </tr>
-            <tr>
-                <td>Row 3, Cell 1</td>
-                <td>Row 3, Cell 2</td>
-                <td>Row 3, Cell 3</td>
-            </tr>
-            <tr>
-                <td>Row 3, Cell 1</td>
-                <td>Row 3, Cell 2</td>
-                <td>Row 3, Cell 3</td>
-            </tr>
-        </tbody>
-    </table>
+        <img src="./img3/habibur.jpg" alt="Image 17">
+        <img src="./img2/Khokon.jpg" alt="Image 18">
+        <img src="./img4/Shiplu.jpg" alt="Image 19">
+        <img src="./img3/Tahmid.jpg" alt="Image 20">
+    </div>
 
+
+
+    <div class="upload-section">
+        <div class="upload-btn-wrapper">
+            <button class="btn">Upload a file</button>
+            <input type="file" name="myfile" />
+        </div>
+        <p>Click the "Upload a file" button to choose an image file.</p>
+    </div>
 </body>
 </html>
