@@ -131,17 +131,18 @@ body{
 
 .text {
     position: absolute;
-    top: 120px;
-    left:370px;
+    top: 80px;
+    left:150px;
+    right:170px;
     text-align: center;
     color: white;
 }
-.rmpi-text{
+/* .rmpi-text{
     font-size: 18px;
     margin: 0;
-}
+} */
 .portal-text{
-    font-size: 65px;
+    font-size: 60px;
     margin: 10px;
 }
 .student-span{
@@ -149,94 +150,134 @@ body{
 }
 /* body section end  */
 
+/* About-Us Section start */
 
 
-
-
-
-
-/* Gallery Section Start  */
-
-.main-gallery{
-    position: relative;
-    top: 430px;
+.main-about-us{
+  position: relative;
+  top: 450px;
 }
 
-.gallery {
-    display: flex; 
-  justify-content: space-between;
+.about-us-h1{
+  color: #992C2C;
+  border-bottom: 3px solid #992C2C;
 }
 
-.gallery img {
-    width: 380px;
-    height: 380px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    border:3px solid #992C2C;
+.about-us-p{
+  font-size: 18px;
+  text-align: justify;
+  margin-top:10px ;
 }
 
 
-
-
-.upload-section {
-    text-align: center;
-    margin: 20px;
+.main-about-us2{
+  display: flex;
+  margin-top: 50px;
 }
-
-.upload-btn-wrapper {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
-
-.btn {
-    border: 2px solid gray;
-    color: gray;
-    background-color: white;
-    padding: 8px 20px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.upload-btn-wrapper input[type=file] {
-    font-size: 100px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-}
-
-.upload-btn-wrapper .upload-btn {
-    padding: 8px 20px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
+.about-us-text{
+  flex: 1;
+  margin-right: 20px;
 }
 
 
+.about-us-text-2{
+  flex: 1;
+  margin-left: 50px;
+}
+h3{
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.ul-about{
+  list-style-type: none;
+  padding-left: 50px;
+}
+.li-about{
+  list-style-type: circle ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.about-us-image{
+  flex: 0.9;
+}
+
+
+.about-us-image img {
+  width: 100%;
+  height: auto;
+  border-radius:20px;
+  border:2px solid #992C2C;
+}
+
+.about-us-3th-div{
+  margin-top: 30px;
+}
+
+.about-us-p3{
+  font-size: 18px;
+  text-align: justify;
+  /* margin-top:10px ; */
+}
+
+/* About-Us Section end */
 
 
 
 
 
 
+.table-info{
+  margin-top: 50px;
+}
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
 
-/* Gallery Section End  */
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid  #992C2C;
+  font-size: 18px;
+  
+}
 
+th {
+  background-color:  #992C2C;
+  color: #ddd;
+}
 
+tr:nth-child(even) {
+  background-color: #ddd;
+}
 
+.row-1st{
+  font-weight:500
+  
+}
 
-
+.h2-p{
+  font-size: 25px;
+  font-weight: 600;
+  margin-top:40px ;
+  margin-bottom: 10px;
+  
+}
+.history-p{
+  font-size: 18px;
+  text-align: justify;
+}
 
 
 
   /*last footer section start  */
   .end{
     position: relative;
-    top: 800px;
+    top: 600px;
     background-color: #992C2C;
     color: white;
     font-size: 13px;
