@@ -236,7 +236,7 @@ body{
   /*last footer section start  */
   .end{
     position: relative;
-    top: 800px;
+    top: 100px;
     background-color: #992C2C;
     color: white;
     font-size: 13px;
